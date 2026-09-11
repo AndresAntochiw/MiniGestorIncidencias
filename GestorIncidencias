@@ -1,0 +1,19 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class GestorIncidencias {
+
+    private List<Incidencia> incidencias;
+
+    public GestorIncidencias() {
+        incidencias = new ArrayList<>();
+    }
+
+    public void agregarIncidencia(Incidencia incidencia) {
+        incidencias.add(incidencia);
+    }
+
+    public List<Incidencia> obtenerIncidencias() {
+        return incidencias;
+    }
+}
