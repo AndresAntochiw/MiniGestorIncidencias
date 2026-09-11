@@ -1,0 +1,67 @@
+public class Incidencia {
+    private int id;
+    private String equipo;
+    private String ubicacion;
+    private String descripcion;
+    private Prioridad prioridad;
+    private Estado estado;
+
+    public Incidencia(int id, String equipo, String ubicacion, String descripcion, Prioridad prioridad, Estado estado) {
+        this.id = id;
+        this.equipo = equipo;
+        this.ubicacion = ubicacion;
+        this.descripcion = descripcion;
+        this.prioridad = prioridad;
+        this.estado = estado;
+
+
+    }
+
+    public Estado getEstado() {
+        return estado;
+    }
+
+    public void setEstado(Estado estado) {
+        this.estado = estado;
+    }
+
+    public Prioridad getPrioridad() {
+        return prioridad;
+    }
+
+    public void setPrioridad(Prioridad prioridad) {
+        this.prioridad = prioridad;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public String getUbicacion() {
+        return ubicacion;
+    }
+
+    public void setUbicacion(String ubicacion) {
+        this.ubicacion = ubicacion;
+    }
+
+    public String getEquipo() {
+        return equipo;
+    }
+
+    public void setEquipo(String equipo) {
+        this.equipo = equipo;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+}
